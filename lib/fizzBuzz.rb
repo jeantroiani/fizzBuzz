@@ -1,7 +1,5 @@
  
-# Marco modification
-def divisible_by_three?(number)
-	
+def divisible_by_three?(number)	
 	divisible_by?(number,3)
 end
 
@@ -14,8 +12,7 @@ def divisible_by_fifteen?(number)
 end
 
 def divisible_by?(operand, operator)
-  operand % operator == 0
-
+  	operand % operator == 0
 end
 
 def fizzBuzz(number)
@@ -23,5 +20,5 @@ def fizzBuzz(number)
 	return "fizz" if divisible_by_three?(number)
 	return "buzz" if divisible_by_five?(number)
 	return number
-
 end
+
